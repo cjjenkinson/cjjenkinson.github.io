@@ -4,25 +4,35 @@ date: "2018-12-01T22:40:32.169Z"
 description: ""
 ---
 
-I recently finished a task to set up a development environment to build a Lambda function that would interact with AWS services.
+I recently finished a task that involved setting a development environment to build a Lambda function that would interact with AWS services.
 
-The Lambda would be triggered on S3 put events which would stream and pares XML files to JSON and insert the entities into a DynamoDB table.
+The Lambda would be evoked on S3 put events which would then stream and parse XML files to JSON before inserting the result into a DynamoDB table.
 
-The first pain point I had at was setting up a local AWS environment to test that the function actually did what I wanted it to do with the S3 and DynamoDB services. I didn't want to connect to live instances for obvious reasons so I used [localstack](https://github.com/localstack/localstack).
+The first pain point I had was understanding how to interface with AWS services locally. This involved setting up a local AWS environment.
 
-Localstack provides an easy-to-use test/mocking framework for developing applications on AWS. It provides a local emulation of the most popular AWS services which can be accessed with the same SDK's [aws-sdk](https://aws.amazon.com/sdk-for-node-js/) used within your project. This meant I could write the same code I would run on the Lambda interacting with the services without having to create additional testing boilerplate.
+I used [localstack](https://github.com/localstack/localstack) to do this.
 
-Getting all the services running together was the next challenge and Docker was the next step for creating a self contained environment. I wanted it to be fairly easy another developer to spin up and work on without having to ask me for credentials, what services should go where and how to install Localstack.
+Localstack provides an easy-to-use test/mocking framework for developing applications on AWS. It provides emulation of the most popular AWS services locally which can be accessed with the same SDK's provided by AWS such as the Node [aws-sdk](https://aws.amazon.com/sdk-for-node-js/). 
 
-I wanted it to get going with a simple  ```make up``` it was all ready to go.
+Getting all the services running together was the next challenge and Docker was the next step for creating a self contained environment. 
 
-My intention with the word go meant that I wanted to be able to simulate the S3 event triggering the lambda and logging the behaviour as it run making use of the AWS services from localstack.
+I wanted it to be fairly easy for another developer to spin up and work on the function without having to ask me for credentials or how to install Localstack.
 
-The following will go over the configuration files I used to make this work with Localstack and Docker for harmonious lambda development.
+The following will go over the configuration files I used to make this work with Localstack and Docker for a faily harmonious development environment for AWS services.
 
 ### Setting up the Docker container
 
 Set up a boilerplate Node project using NPM or Yarn then create a Dockerfile.
+
+```
+yarn init
+```
+
+Run through the Yarn prompts then
+
+```
+touch Dockerfile
+```
 
 #### Dockerfile:
 
@@ -49,9 +59,9 @@ COPY . /usr/src/app
 CMD ["yarn", "dev"]
 ```
 
-A [Dockerfile](https://docs.docker.com/engine/reference/builder/) is used to build images from the instructions laid out using commands that can be called on the command line but instead are run sequentially from this file.
+A [Dockerfile](https://docs.docker.com/engine/reference/builder/) is used to build images from the instructions laid out using commands where those commands are run sequentially from this file.
 
-In this Dockerfile we start by installing Node and the development pain free version of python and pip to avoid errors when working with the [aws-cli](https://aws.amazon.com/cli/). Once the aws-cli is installed, the working directory is set where the dependencies can also be added and project script commands can be run.
+In our Dockerfile we start by installing Node and the development pain free version of python and pip to avoid errors when working with the [aws-cli](https://aws.amazon.com/cli/). Once the aws-cli is installed, the working directory is set where the Node dependencies are added and the project script commands can be run.
 
 We'll define the same working directory path in the ```docker-compose.yml``` file next.
 
@@ -90,21 +100,19 @@ services:
 
 ```
 
-The Docker Compose file is a [YAML](http://yaml.org/) file defining [services](https://docs.docker.com/compose/compose-file/#service-configuration-reference), [networks](https://docs.docker.com/compose/compose-file/#network-configuration-reference) and [volumes](https://docs.docker.com/compose/compose-file/#volume-configuration-reference).
+A Docker Compose file is a [YAML](http://yaml.org/) file defining [services](https://docs.docker.com/compose/compose-file/#service-configuration-reference), [networks](https://docs.docker.com/compose/compose-file/#network-configuration-reference) and [volumes](https://docs.docker.com/compose/compose-file/#volume-configuration-reference).
 
-A service definition contains a configuration that is applied to each container started for that service.
+The service definition contains a configuration that is applied to each container started for that service.
 
 We will define __two service configurations__, the *lambda-parser* and the localstack service as *lambda-parser-aws*.
 
-The lambda-parsar service  represents the Node.js project that the lambda will be developed in. It will interact with the localstack container over a default network created automatically by docker-compose.
+- The lambda-parser service  represents the Node.js project that the lambda will be developed in. It will interact with the localstack container over a default network created automatically by docker-compose.
 
-An important part of the service configuration here is for localstack.
+- The lambda-parser-aws service will expose the localstack instance through the defined port 5000 and every other service we define on their respective ports [listed here](https://github.com/localstack/localstack#overview).
 
-The lambda-parser-aws service will expose the localstack instance through the defined port 5000 and every other service we define on their respective ports [listed here](https://github.com/localstack/localstack#overview).
+We'll need to tell localstack to expose the S3 & DynamoDB services on ports 4572 and 4569.
 
-We'll need to tell localstack to expose the s3 & DynamoDB services on ports 4572 and 4569.
-
-If you'd like to add additional services such as SQS simply add them to the SERVICES=s3,dynamodb,sqs and expose the port defined on the localstack documentation.
+If you'd like to add additional services such as SQS simply add them to the SERVICES=s3,dynamodb,sqs and expose the port defined from the localstack [documentation](https://github.com/localstack/localstack#overview).
 
 #### Makefile
 
@@ -137,13 +145,11 @@ docker-nuke:
 
 ```
 
-A makefile is a special file, containing shell commands that you create and name ```Makefile``` with no extension.
+A Makefile is a special file, containing shell commands executed on the terminal.
 
-A Makefile can be used like the npm script runner accept they interact with terminal commands that allow you to work with applications like Docker.
+In our Makefile we want to be able to use Docker Compose to spin up all of the services we defined in the ```docker-compose.yml``` file which will also be in charge of running the Node script ```yarn dev``` from the Dockerfile.
 
-In the Makefile we want to be able to use Docker Compose to spin up all of the services we defined in the ```docker-compose.yml``` file which will also be in charge of running the Node scrit ```yarn dev``` from the Dockerfile.
-
-Makefile is great for this type of dux because it gives you a single access point for interacting with your entire application stack.
+I think Makefiles are great for this type of problem because it gives you a single access point for interacting with your entire application stack.
 
 ```make down``` will spin down the Docker containers cleaning up resources and ```make reboot``` will restart all containers after spinning them down.
 
@@ -171,7 +177,7 @@ shell.exec('aws --endpoint-url=http://lambda-parsar-aws:4569  dynamodb create-ta
 shell.echo('Bootstrap complete');
 ```
 
-At this point you might be wondering how we work with the AWS services on localstack, how do I actually create a Bucket and DynamoDB table?
+At this point you might be wondering how we work with the AWS services on localstack, how do I actually create a Bucket and DynamoDB table.
 
 You have a couple of options:
 
