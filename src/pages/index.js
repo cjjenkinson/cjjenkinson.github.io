@@ -51,18 +51,13 @@ const BlogIndex = () => (
       </div>
       <h1>Cameron Jenkinson</h1>
       <Section>
-        <p>Nomad 🌴 | Software Engineer</p>
+        <p>Javascript Software Engineer</p>
         <p>Currently building the future of A&R at Clatter.</p>
       </Section>
       <SectionFeatured>
         <Link to="/blog">
           📕 Blog
         </Link>
-      </SectionFeatured>
-      <SectionFeatured>
-        <a href="https://heptad.io" target="_blank">
-          🔮 Learn how to code and build products
-        </a>
       </SectionFeatured>
       <Section>
         <SocialLinks>
