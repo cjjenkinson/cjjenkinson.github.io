@@ -52,7 +52,6 @@ const BlogIndex = () => (
       <h1>Cameron Jenkinson</h1>
       <Section>
         <p>Javascript Software Engineer</p>
-        <p>Currently building the future of A&R at Clatter.</p>
       </Section>
       <SectionFeatured>
         <Link to="/blog">
@@ -61,11 +60,6 @@ const BlogIndex = () => (
       </SectionFeatured>
       <Section>
         <SocialLinks>
-          <li>
-            <a href="https://instagram.com/cameronjjenkinson" target="_blank">
-              📷 instagram/cameronjjenkinson
-            </a>
-          </li>
           <li>
             <a href="https://github.com/cjjenkinson" target="_blank">
               💻 github/cjjenkinson
