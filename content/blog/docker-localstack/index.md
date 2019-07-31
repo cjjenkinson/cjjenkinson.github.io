@@ -1,5 +1,5 @@
 ---
-title: Setting up a development environment with localstack and docker
+title: Setting up a AWS development environment with localstack and docker
 date: "2018-12-01T22:40:32.169Z"
 description: ""
 ---
@@ -8,9 +8,7 @@ I recently finished a task that involved setting a development environment to bu
 
 The Lambda would be evoked on S3 put events which would then stream and parse XML files to JSON before inserting the result into a DynamoDB table.
 
-The first pain point I had was understanding how to interface with AWS services locally. This involved setting up a local AWS environment.
-
-I used [localstack](https://github.com/localstack/localstack) to do this.
+The first pain point I had was understanding how to interface with AWS services locally which involved setting up a AWS environment locally with [localstack](https://github.com/localstack/localstack).
 
 Localstack provides an easy-to-use test/mocking framework for developing applications on AWS. It provides emulation of the most popular AWS services locally which can be accessed with the same SDK's provided by AWS such as the Node [aws-sdk](https://aws.amazon.com/sdk-for-node-js/). 
 
@@ -194,8 +192,5 @@ Doing it from within the Node project allowed me to quickly create the instances
 
 ### Wrapping Up
 
-From here you have most of the boilerplate needed to start developing  with AWS services without needing to work with any live instances.
-
-There is not much left to add accept your own business logic.
-
+From here you have most of the boilerplate needed to start developing with AWS services locally without needing to work with any live instances on the cloud meaning less headache on credential management and permissions.
 
