@@ -47,11 +47,17 @@ const BlogIndex = () => (
     <SEO title="Home" />
     <BioWrapper>
       <div style={{ maxWidth: `124px`, marginBottom: `1rem` }}>
-        <Image />
+        <Image imagePath="me.jpg" />
       </div>
       <h1>Cameron Jenkinson</h1>
       <Section>
-        <p>Javascript Software Engineer</p>
+        <p>
+          Hi, I’m Cameron. I’m software engineer focused on serverless applications.
+          I share insights into building production ready services at {' '}
+          <a href="https://learnerbly.com" target="_blank">Learnerbly</a>, {' '}
+          <a href="https://trackstack.in" target="_blank">Trackstack</a>{' '}
+          and beyond.
+        </p>
       </Section>
       <SectionFeatured>
         <Link to="/blog">

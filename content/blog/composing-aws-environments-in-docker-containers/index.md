@@ -1,18 +1,19 @@
 ---
-title: Setting up a AWS development environment with localstack and docker
+title: Composing AWS environments in Docker containers
 date: "2018-12-01T22:40:32.169Z"
-description: ""
+description: "The Lambda would be evoked on S3 put events which would then stream and parse XML files to JSON before inserting the result into a DynamoDB table.
+"
 ---
 
-I recently finished a task that involved setting a development environment to build a Lambda function that would interact with AWS services.
+I recently finished a task that involved setting a development environment for a severless app.
 
-The Lambda would be evoked on S3 put events which would then stream and parse XML files to JSON before inserting the result into a DynamoDB table.
+A Lambda would be evoked on S3 put events which would then stream and parse XML files to JSON before inserting the result into a DynamoDB table.
 
 The first pain point I had was understanding how to interface with AWS services locally which involved setting up a AWS environment locally with [localstack](https://github.com/localstack/localstack).
 
-Localstack provides an easy-to-use test/mocking framework for developing applications on AWS. It provides emulation of the most popular AWS services locally which can be accessed with the same SDK's provided by AWS such as the Node [aws-sdk](https://aws.amazon.com/sdk-for-node-js/). 
+Localstack provides an easy-to-use test/mocking framework for developing applications on AWS. It provides emulation of the most popular AWS services locally which can be accessed with the same SDK's provided by AWS such as the Node [aws-sdk](https://aws.amazon.com/sdk-for-node-js/).
 
-Getting all the services running together was the next challenge and Docker was the next step for creating a self contained environment. 
+Getting all the services running together was the next challenge and Docker was the next step for creating a self contained environment.
 
 I wanted it to be fairly easy for another developer to spin up and work on the function without having to ask me for credentials or how to install Localstack.
 

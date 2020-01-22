@@ -1,9 +1,8 @@
 ---
 title: How to write Javascript utility functions
 date: "2017-11-01T22:40:32.169Z"
-description: ""
+description: "First, Last, Uniq, Extend, Defaults, Reject, Every & Some, Pluck, Once, Memoize — Vanilla JS implementations."
 ---
-
 
 First, Last, Uniq, Extend, Defaults, Reject, Every & Some, Pluck, Once, Memoize — Vanilla JS implementations.
 

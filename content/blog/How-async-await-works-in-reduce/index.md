@@ -1,7 +1,7 @@
 ---
 title: How async/await works in Array reduce
 date: "2019-06-21T22:12:03.284Z"
-description: ""
+description: "Making asynchronous calls on a collection within Reduce has a few caveats that other Array iteration methods like ```.map``` don't come with."
 ---
 
 I found myself Googling this question a few too many times and I'd like to talk about it.

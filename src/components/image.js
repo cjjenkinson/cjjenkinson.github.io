@@ -18,11 +18,11 @@ const Avatar = styled(Img)`
   border-radius: 100%;
 `;
 
-const Image = () => (
+const Image = (imagePath) => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "me.png" }) {
+        placeholderImage: file(relativePath: { eq: "me.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 300) {
               ...GatsbyImageSharpFluid

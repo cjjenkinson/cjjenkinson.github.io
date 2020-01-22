@@ -1,10 +1,10 @@
 ---
 title: How Map, Reduce and Filter work
 date: "2016-08-10T22:12:03.284Z"
-description: ""
+description: "A breakdown of the implementation of map, reduce and filter with Javascript."
 ---
 
-An breakdown of the Underscore implementation of
+A breakdown of the implementation of
 [Map](http://underscorejs.org/#map), [Reduce](http://underscorejs.org/#reduce)
 and [Filter](http://underscorejs.org/#filter) methods with various examples.
 

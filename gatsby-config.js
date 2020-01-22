@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Cameron Jenkinson`,
+    title: `Cameron Jenkinson - Articles on Severless apps`,
     author: `Cameron Jenkinson`,
-    description: `Javascript software engineer`,
+    description: `Javascript software engineer focused on serverless applications and AWS cloud infrastructure.`,
     siteUrl: `https://cameronjjenkinson.com`,
     social: {
       twitter: `cjjenkinson`,

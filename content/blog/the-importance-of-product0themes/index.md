@@ -1,7 +1,7 @@
 ---
 title: The Importance of Product Themes
 date: "2018-06-10T22:12:03.284Z"
-description: ""
+description: "This post is about the importance of identifying a strong theme to make product development more effective."
 ---
 
 This post is about the importance of identifying a strong theme to make product development more effective.
