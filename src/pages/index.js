@@ -63,11 +63,16 @@ const BlogIndex = () => (
           📕 Writing
         </Link>
       </SectionFeatured>
+      <SectionFeatured>
+        <a href="https://dev.to/cjjenkinson">
+          💻 Programming blog
+        </a>
+      </SectionFeatured>
       <Section>
         <SocialLinks>
           <li>
             <a href="https://github.com/cjjenkinson" target="_blank">
-              💻 github/cjjenkinson
+              💼 github/cjjenkinson
             </a>
           </li>
         </SocialLinks>
