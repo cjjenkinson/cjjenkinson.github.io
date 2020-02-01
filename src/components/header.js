@@ -11,11 +11,9 @@ const Header = () => (
   <HeaderWrapper>
     <Link to="/"><h2>Cameron Jenkinson</h2></Link>
     <p>
-      Hi, I’m Cameron. I’m software engineer focused on serverless applications.
-      I share insights into building production ready services at {' '}
-      <a href="https://learnerbly.com" target="_blank">Learnerbly</a>, {' '}
-      <a href="https://trackstack.in" target="_blank">Trackstack</a>{' '}
-      and beyond.
+      Hi, I’m Cameron. I am a remote maker which means I cant sit still for more than 5 minutes.
+      I am currently nomading in Rotterdam, Netherlands and next up I'll be in Budapest, Hungary.
+      Thanks for stopping by 👋
     </p>
   </HeaderWrapper>
 );

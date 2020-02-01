@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Cameron Jenkinson - Articles on Severless apps`,
+    title: `Cameron Jenkinson - Maker`,
     author: `Cameron Jenkinson`,
-    description: `Javascript software engineer focused on serverless applications and AWS cloud infrastructure.`,
+    description: `Maker roadming around the world building stuff.`,
     siteUrl: `https://cameronjjenkinson.com`,
     social: {
       twitter: `cjjenkinson`,
@@ -21,6 +21,12 @@ module.exports = {
       options: {
         path: `${__dirname}/content/assets`,
         name: `assets`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        displayName: false
       },
     },
     {
@@ -63,7 +69,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/me.png`,
+        icon: `content/assets/me.jpg`,
       },
     },
     `gatsby-plugin-offline`,

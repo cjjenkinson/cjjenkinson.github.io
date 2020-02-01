@@ -52,16 +52,15 @@ const BlogIndex = () => (
       <h1>Cameron Jenkinson</h1>
       <Section>
         <p>
-          Hi, I’m Cameron. I’m software engineer focused on serverless applications.
-          I share insights into building production ready services at {' '}
-          <a href="https://learnerbly.com" target="_blank">Learnerbly</a>, {' '}
-          <a href="https://trackstack.in" target="_blank">Trackstack</a>{' '}
-          and beyond.
+          Hi, I’m Cameron. I am a remote maker which means I cant sit still for more than 5 minutes.
+          On paper I am a self taught programmer and I was a product designer before that. I am
+          currently nomading in Rotterdam, Netherlands and next up I'll be in Budapest, Hungary.
+          Thanks for stopping by 👋
         </p>
       </Section>
       <SectionFeatured>
         <Link to="/blog">
-          📕 Blog
+          📕 Writing
         </Link>
       </SectionFeatured>
       <Section>
@@ -69,11 +68,6 @@ const BlogIndex = () => (
           <li>
             <a href="https://github.com/cjjenkinson" target="_blank">
               💻 github/cjjenkinson
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/cameronjjenkinson/" target="_blank">
-              💼 linkedin/cameronjjenkinson
             </a>
           </li>
         </SocialLinks>
