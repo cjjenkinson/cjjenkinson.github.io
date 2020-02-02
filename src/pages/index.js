@@ -52,10 +52,9 @@ const BlogIndex = () => (
       <h1>Cameron Jenkinson</h1>
       <Section>
         <p>
-          Hi, I’m Cameron. I am a remote maker which means I cant sit still for more than 5 minutes.
-          On paper I am a self taught programmer and I was a product designer before that. I am
-          currently nomading in Rotterdam, Netherlands and next up I'll be in Budapest, Hungary.
-          Thanks for stopping by 👋
+        Hi, I’m Cameron. I am a remote maker which means I cant sit still for more than 5 minutes.
+        I am currently nomading in Rotterdam, Netherlands and next up I'll be in Budapest, Hungary.
+        Thanks for stopping by 👋
         </p>
       </Section>
       <SectionFeatured>
