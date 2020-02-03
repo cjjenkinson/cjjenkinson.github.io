@@ -75,7 +75,7 @@ const BlogIndex = () => (
             </a>
           </li>
           <li>
-            <a href="https://instagram.com/cjjenkinson" target="_blank">
+            <a href="https://instagram.com/cameronjjenkinson" target="_blank">
               📷 instagram/cjjenkinson
             </a>
           </li>
