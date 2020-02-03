@@ -59,7 +59,7 @@ const BlogIndex = () => (
       </Section>
       <SectionFeatured>
         <Link to="/blog">
-          📕 Writing
+          📕 Personal blog
         </Link>
       </SectionFeatured>
       <SectionFeatured>
