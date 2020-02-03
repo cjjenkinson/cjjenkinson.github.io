@@ -74,6 +74,11 @@ const BlogIndex = () => (
               💼 github/cjjenkinson
             </a>
           </li>
+          <li>
+            <a href="https://instagram.com/cjjenkinson" target="_blank">
+              📷 instagram/cjjenkinson
+            </a>
+          </li>
         </SocialLinks>
       </Section>
     </BioWrapper>
