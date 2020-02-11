@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from  'gatsby';
 import styled from 'styled-components';
 
+import Image from "./image"
+
 const HeaderWrapper = styled.header`
   margin-bottom: 32px;
   border-bottom: 1px solid #e7e7e7;
@@ -9,11 +11,15 @@ const HeaderWrapper = styled.header`
 
 const Header = () => (
   <HeaderWrapper>
-    <Link to="/"><h2>Cameron Jenkinson</h2></Link>
+    <Link to="/">
+      <div style={{ maxWidth: `124px`, marginBottom: `1rem` }}>
+        <Image imagePath="me.jpg" />
+      </div>
+      <h2>Cameron Jenkinson</h2>
+    </Link>
     <p>
-      Hi, I’m Cameron. I am a remote maker which means I cant sit still for more than 5 minutes.
-      I am currently nomading in Rotterdam, Netherlands and next up I'll be in Budapest, Hungary.
-      Thanks for stopping by 👋
+      I'm a programmer and maker. Occasionally I write about technology and my experiences
+      living as a nomad.
     </p>
   </HeaderWrapper>
 );

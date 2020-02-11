@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Cameron Jenkinson - Maker`,
+    title: `Cameron Jenkinson`,
     author: `Cameron Jenkinson`,
-    description: `Maker roadming around the world building stuff.`,
+    description: `I'm a programmer and entrepreneur. Occasionally I write about technology and my experiences
+    living as a nomad.`,
     siteUrl: `https://cameronjjenkinson.com`,
     social: {
       twitter: `cjjenkinson`,

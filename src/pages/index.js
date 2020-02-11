@@ -52,20 +52,14 @@ const BlogIndex = () => (
       <h1>Cameron Jenkinson</h1>
       <Section>
         <p>
-        Hi, I’m Cameron. I am a remote maker which means I cant sit still for more than 5 minutes.
-        I am currently nomading in Rotterdam, Netherlands and next up I'll be in Budapest, Hungary.
-        Thanks for stopping by 👋
+          I'm a programmer and maker. Occasionally I write about technology and my experiences
+          living as a nomad.
         </p>
       </Section>
       <SectionFeatured>
         <Link to="/blog">
-          📕 Personal blog
+          Blog
         </Link>
-      </SectionFeatured>
-      <SectionFeatured>
-        <a href="https://dev.to/cjjenkinson">
-          💻 Programming blog
-        </a>
       </SectionFeatured>
       <Section>
         <SocialLinks>
