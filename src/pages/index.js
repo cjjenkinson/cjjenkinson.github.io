@@ -61,6 +61,11 @@ const BlogIndex = () => (
           Blog
         </Link>
       </SectionFeatured>
+      <SectionFeatured>
+        <Link to="https://dev.to/cjjenkinson">
+          Technical blog
+        </Link>
+      </SectionFeatured>
       <Section>
         <SocialLinks>
           <li>
