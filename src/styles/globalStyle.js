@@ -5,7 +5,8 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     margin: 0;
     background: none;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans', georgia, sans-serif;
+    line-height: 1.6;
   }
   *, *::before, *::after {
     box-sizing: border-box;
@@ -22,7 +23,6 @@ export const GlobalStyle = createGlobalStyle`
     width: 100%;
   }
   h1, h2, h3, h4, h5 {
-    line-height: 1.6em;
     margin-top: 0;
     font-family: 'Work Sans', sans-serif;
   }
@@ -41,6 +41,9 @@ export const GlobalStyle = createGlobalStyle`
   h5 {
     font-weight: 400;
     text-transform: uppercase;
+  }
+  p, span, textarea, ul, li {
+    font-family: 'PT Serif', georgia, sans-serif;
   }
   p, span, input, button, input, optgroup, select, textarea {
     margin-top: 0;
