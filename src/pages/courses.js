@@ -6,8 +6,7 @@ import styled from 'styled-components';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const BioWrapper = styled.div`
-  margin-top: 16px;
+const Wrapper = styled.div`
   margin-bottom: 128px;
 `;
 
@@ -16,18 +15,19 @@ const Section = styled.div`
   border-bottom: 1px solid #e7e7e7;
 `;
 
-const Home = () => (
+const Courses = () => (
   <Layout>
-    <SEO title="Cameron Jenkinson" />
-    <BioWrapper>
+    <SEO title="Courses" />
+    <Wrapper>
+      <h1>Courses</h1>
       <Section>
         <p>
-          I'm a programmer and maker. 
+          Coming soon.
         </p>
       </Section>
-    </BioWrapper>
+    </Wrapper>
   </Layout>
 )
 
-export default Home;
+export default Courses;
 
