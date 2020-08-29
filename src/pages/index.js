@@ -22,21 +22,17 @@ const Home = () => (
     <BioWrapper>
       <Section>
         <p>
-         I'm a programmer and maker. I mostly work with Javascript and serverless cloud based applications.
+         I'm a programmer and maker. 
         </p>
       </Section>
         <h2>Products</h2>
         <h4>Trackstack</h4>
         <p>Get your demo heard. Trackstack is a demo management platform for established professional DJs.</p>
-        <h4>Self Sourced Man</h4>
-        <p>A community of men using taoist and Auyvedic principles to improve their wellbeing and sexual fitness.</p>
         <h2>Open Source</h2>
         <h4>Ephemeral</h4>
         <p>Guidelines for building cloud based serverless applications with AWS CDK.</p>
         <h4>Lambda oAuth2</h4>
         <p>oAuth2 compliant library for building authentication flows on AWS Lambda.</p>
-        <h4>Ruilders</h4>
-        <p>CRUD resolvers for Graphql APIs using Postgres or MySQL</p>
     </BioWrapper>
   </Layout>
 )
