@@ -29,14 +29,14 @@ const Home = () => (
         <h4>Trackstack</h4>
         <p>Get your demo heard. Trackstack is a demo management platform for established professional DJs.</p>
         <h4>Self Sourced Man</h4>
-        <p>A community of men using tibeten, toaist and auyvedic principles to improve their wellbeing and sexual fitness.</p>
+        <p>A community of men using taoist and Auyvedic principles to improve their wellbeing and sexual fitness.</p>
         <h2>Open Source</h2>
         <h4>Ephemeral</h4>
-        <p>A set of guidelines for buildingcloud based serverless applications with AWS CDK.</p>
+        <p>Guidelines for building cloud based serverless applications with AWS CDK.</p>
         <h4>Lambda oAuth2</h4>
-        <p>A oAuth2 compliant library for building authentication flows on AWS Lambda.</p>
+        <p>oAuth2 compliant library for building authentication flows on AWS Lambda.</p>
         <h4>Ruilders</h4>
-        <p>A set of CRUD resolvers for Graphql APIs using Postgres or MySQL</p>
+        <p>CRUD resolvers for Graphql APIs using Postgres or MySQL</p>
     </BioWrapper>
   </Layout>
 )
