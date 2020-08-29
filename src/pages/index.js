@@ -32,19 +32,26 @@ const Home = () => (
       </Section>
       <Section>
         <h2>Self Sourced Man</h2>
+      <h2>Products</h2>
+      <Section>
+        <h4>Trackstack</h4>
+        <p>Get your demo heard. Trackstack is a demo management platform for established professional DJs.</p>
+      </Section>
+      <Section>
+        <h4>Self Sourced Man</h4>
         <p>A community of men using tibeten, toaist and auyvedic principles to improve their wellbeing and sexual fitness.</p>
       </Section>
       <h2>Open Source</h2>
       <Section>
-        <h2>Ephemeral</h2>
+        <h4>Ephemeral</h4>
         <p>A set of guidelines for buildingcloud based serverless applications with AWS CDK.</p>
       </Section>
       <Section>
-        <h2>Lambda oAuth2</h2>
-        <p>A oAuth2 compliant library for building oAuth2.0 flows on AWS Lambda.</p>
+        <h4>Lambda oAuth2</h4>
+        <p>A oAuth2 compliant library for building authentication flows on AWS Lambda.</p>
       </Section>
       <Section>
-        <h2>Ruilders</h2>
+        <h4>Ruilders</h4>
         <p>A set of CRUD resolvers for Graphql APIs using Postgres or MySQL</p>
       </Section>
     </BioWrapper>
