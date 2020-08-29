@@ -39,29 +39,14 @@ const About = () => (
         </p>
 
         <p>
-          Outside of this I work on products and share things that I built along the way as open source projects.
-        </p>
-
-        <p>
-          I started my journey in tech at the sweet age of 10 when I tried to put together a gaming PC so 
-          I could play Command & Conquer in higher definition. Next was at the University of Southampton 
-          where I studied computer science. I then spent the rest of my time at University making house 
+          I started my journey in tech at the age of 10 when I to put together a gaming PC to play Command & Conquer in higher definition.
+          Next was at the University of Southampton where I studied computer science. I then spent the rest of my time at University making house 
           music as South Royston travelling across the country and Europe performing at venues, it was a lot of fun. 
         </p>
-
-        <p>
-          I got into product developmentand  my groove as a front-end UI engineer at the early stages of my career after 
-          I graduated from attending Hackathons like launch48 and start-up weekend.
-        </p> 
         
         <p>
-          I like to build stuff, create things and solve problems with reliable technology. That is why I describe myself as a product engineer.
+          I like to build stuff and create things. I mostly work with Javascript and serverless cloud based applications.
         </p> 
-  
-         <p>
-          I launched my first product in 2015, a music discovery app for professional DJs. Ever since then
-          I’ve progressed in product development to full-stack development working mostly at start-ups.
-        </p>  
 
         <p>
           The writing on here contains my thoughts, experiences and my best answers to questions that developers working with 
