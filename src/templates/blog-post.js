@@ -3,7 +3,10 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import ConvertKitForm from 'convertkit-react'
 import { rhythm, scale } from "../utils/typography"
+
+const MY_FORM_ID = 1624729;
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -38,7 +41,7 @@ class BlogPostTemplate extends React.Component {
         />
 
         <div>
-         <script async data-uid="8a3ec4c419" src="https://cameronjjenkinson.ck.page/8a3ec4c419/index.js"></script>
+          <ConvertKitForm formId={MY_FORM_ID} />
         </div>
 
         <ul
