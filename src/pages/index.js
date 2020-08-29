@@ -26,9 +26,6 @@ const Home = () => (
         </p>
       </Section>
         <h2>Products</h2>
-        <h2>Trackstack</h2>
-        <p>Get your demo heard. Trackstack is a demo management platform for established professional DJs.</p>
-        <h2>Self Sourced Man</h2>
         <h4>Trackstack</h4>
         <p>Get your demo heard. Trackstack is a demo management platform for established professional DJs.</p>
         <h4>Self Sourced Man</h4>
