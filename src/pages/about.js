@@ -46,29 +46,22 @@ const About = () => (
           I started my journey in tech at the sweet age of 10 when I tried to put together a gaming PC so 
           I could play Command & Conquer in higher definition. Next was at the University of Southampton 
           where I studied computer science. I then spent the rest of my time at University making house 
-          music as South Royston travelling across the country and Europe performing at venues. It was a lot of fun. 
+          music as South Royston travelling across the country and Europe performing at venues, it was a lot of fun. 
         </p>
 
         <p>
-          I got into product development property from attending Hackathons like launch48 and start-up weekend. This got me 
-          into my groove as a front-end UI engineer in the early stages of my career after I graduated.
+          I got into product developmentand  my groove as a front-end UI engineer at the early stages of my career after 
+          I graduated from attending Hackathons like launch48 and start-up weekend.
         </p> 
-
-        <p>
-          I launched my first product in 2015, a music discovery app for professional DJs. Ever since then
-          I’ve progressed in product development to full-stack development working at start-ups mostly.
-        </p>  
-
-        <p>
-          These days I like to keep my life relatively simple and contained. I’ve always been a creative and maker type person. 
-          I never aligned with the archetype of a pure software engineer as I’m not as interested in the low level details
-          and complex math side of the programming world. 
-        </p>
         
         <p>
-          I like to build stuff, create things and solve problems with reliable technology. 
-          That is why I describe myself as a product engineer.
+          I like to build stuff, create things and solve problems with reliable technology. That is why I describe myself as a product engineer.
         </p> 
+  
+         <p>
+          I launched my first product in 2015, a music discovery app for professional DJs. Ever since then
+          I’ve progressed in product development to full-stack development working mostly at start-ups.
+        </p>  
 
         <p>
           The writing on here contains my thoughts, experiences and my best answers to questions that developers working with 
