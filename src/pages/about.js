@@ -45,33 +45,29 @@ const About = () => (
         <p>
           I started my journey in tech at the sweet age of 10 when I tried to put together a gaming PC so 
           I could play Command & Conquer in higher definition. Next was at the University of Southampton 
-          where I studied computer science. I had a guest lecture with Tim Bernes-lee in my first week and it was magic. 
-          I think that’s the only reason I went there because I switched from computer science to business management 
-          one year later because I thought it would make starting a successful startup easier.
+          where I studied computer science. I then spent the rest of my time at University making house 
+          music as South Royston travelling across the country and Europe performing at venues. It was a lot of fun. 
         </p>
 
         <p>
-          I spent the rest of my time at University making house music as South Royston travelling across 
-          the country and Europe performing at venues. It was a lot of fun. 
-        </p>
-
-        <p>
-          I got super into Hackathons back when they were the cool 48 hour build a real start-up with 
-          random people like launch48 and start-up weekend. This got me really into product development and 
-          engineering where I found my groove as a front-end UI engineer in the early stages of my career after I graduated.
+          I got into product development property from attending Hackathons like launch48 and start-up weekend. This got me 
+          into my groove as a front-end UI engineer in the early stages of my career after I graduated.
         </p> 
 
         <p>
-          I launched my first product in 2015 it was a music discovery app for professional DJs. Ever since then
-          I’ve progressed in this field of product development working at start-ups mostly. I really enjoy working
-          at start-ups and I did try the corporate world for one year at Accenture but I didn’t like it.
+          I launched my first product in 2015, a music discovery app for professional DJs. Ever since then
+          I’ve progressed in product development to full-stack development working at start-ups mostly.
         </p>  
 
         <p>
           These days I like to keep my life relatively simple and contained. I’ve always been a creative and maker type person. 
-          I never aligned with the archetype of a pure software engineer as I’m not interested in the low level details, 
-          algorithms and complex math in the programming world. I like to build stuff, create things and solve problems with 
-          reliable technology. That is why I describe myself as a product engineer.
+          I never aligned with the archetype of a pure software engineer as I’m not as interested in the low level details
+          and complex math side of the programming world. 
+        </p>
+        
+        <p>
+          I like to build stuff, create things and solve problems with reliable technology. 
+          That is why I describe myself as a product engineer.
         </p> 
 
         <p>
