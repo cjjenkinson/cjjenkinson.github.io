@@ -35,7 +35,6 @@ const About = () => (
       <Section>
         <p>
           Hi there I’m Cameron. I’m a programmer and maker based in the United Kingdom. 
-          I currently work at Learnerbly where I work with a group of engineers building cloud based serverless applications.
         </p>
 
         <p>
@@ -45,13 +44,8 @@ const About = () => (
         </p>
         
         <p>
-          I like to build stuff and create things. I mostly work with Javascript and serverless cloud based applications.
+          I like to build stuff and create things. I mostly work with Javascript and cloud based architectures.
         </p> 
-
-        <p>
-          The writing on here contains my thoughts, experiences and my best answers to questions that developers working with 
-          cloud based serverless applications struggle with. 
-        </p>
       </Section>
       <Section>
         <SocialLinks>
