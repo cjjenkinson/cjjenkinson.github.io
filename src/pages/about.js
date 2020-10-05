@@ -35,6 +35,7 @@ const About = () => (
       <Section>
         <p>
           Hi there I’m Cameron. I’m a programmer and maker based in the United Kingdom. 
+          I currently work at Learnerbly where I work with a group of engineers building cloud based serverless applications.
         </p>
 
         <p>
