@@ -34,14 +34,7 @@ const About = () => (
     <Wrapper>
       <Section>
         <p>
-          Hi there I’m Cameron. I’m a programmer and maker based in the United Kingdom. 
-          I currently work at Learnerbly where I work with a group of engineers building cloud based serverless applications.
-        </p>
-
-        <p>
-          I started my journey in tech at the age of 10 when I to put together a gaming PC to play Command & Conquer in higher definition.
-          Next was at the University of Southampton where I studied computer science. I then spent the rest of my time at University making house 
-          music as South Royston travelling across the country and Europe performing at venues, it was a lot of fun. 
+          Hi there I’m Cameron. I’m a software engineer based in the UK. I launched my first product in 2015 and served 1000s of professional DJs looking for a better way to discover music. After that I dived deep into technical roles at multiple startups in London including Fiit and Learnerbly.
         </p>
         
         <p>
