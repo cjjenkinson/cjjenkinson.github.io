@@ -5,6 +5,7 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     margin: 0;
     background: none;
+    font-size: 18px;
     font-family: 'Work Sans', georgia, sans-serif;
     line-height: 1.6;
   }
@@ -42,7 +43,7 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 400;
     text-transform: uppercase;
   }
-  p, span, textarea, ul, li {
+  p, textarea, ul, li {
     font-family: 'PT Serif', georgia, sans-serif;
   }
   p, span, input, button, input, optgroup, select, textarea {

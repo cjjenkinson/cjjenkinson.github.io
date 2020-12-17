@@ -20,15 +20,17 @@ class BlogIndex extends React.Component {
           
           return (
             <div key={node.fields.slug}>
-              <h3
+              <h4
                 style={{
-                  marginBottom: rhythm(1 / 4),
+                  fontWeight: 500,
+                  lineHeight: 1.8,
+                  marginBottom: rhythm(1 / 2),
                 }}
               >
                 <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                   {title}
                 </Link>
-              </h3>
+              </h4>
               <h5>{node.frontmatter.date}</h5>
             </div>
           )

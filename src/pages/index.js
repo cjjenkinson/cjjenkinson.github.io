@@ -12,7 +12,8 @@ const BioWrapper = styled.div`
 `;
 
 const Section = styled.div`
-  margin-bottom: 16px;
+  padding-bottom: 16px;
+  margin-bottom: 32px;
   border-bottom: 1px solid #e7e7e7;
 `;
 
@@ -25,14 +26,16 @@ const Home = () => (
          I'm a programmer and maker. 
         </p>
       </Section>
-        <h2>Products</h2>
-        <h4>Trackstack</h4>
-        <p>Get your demo heard. Trackstack is a demo management platform for established professional DJs.</p>
-        <h2>Open Source</h2>
-        <h4>Ephemeral</h4>
-        <p>Guidelines for building cloud based serverless applications with AWS CDK.</p>
-        <h4>Lambda oAuth2</h4>
-        <p>oAuth2 compliant library for building authentication flows on AWS Lambda.</p>
+      <h3>Things Im working on</h3>
+      <Section>
+        <a href="https://selfsourcedman.com" target="_blank"><h4>Self Sourced Man</h4></a>
+        <p>A community of men raising their wellbeing standards</p>
+      </Section>
+      <h3>Things I made</h3>
+      <Section>
+        <a href="https://trackstack.in" target="_blank"><h4>Trackstack</h4></a>
+        <p>A&R collaboration tool for professional DJs & record labels</p>
+      </Section>
     </BioWrapper>
   </Layout>
 )

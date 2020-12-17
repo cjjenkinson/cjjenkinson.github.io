@@ -28,8 +28,8 @@ const Profile = styled.div`
   flex-direction: row;
   align-items: center;
 
-  > span {
-    font-size: 18px;
+  > h4 {
+    margin: 0;
   }
 
   @media (max-width: 768px) {
@@ -83,7 +83,7 @@ const Header = () => (
         <Avatar>
           <Image imagePath="me.jpg" />
         </Avatar>
-        <span>Cameron Jenkinson</span>
+        <h4>Cameron Jenkinson</h4>
       </Profile>
     </StyledLink>
     <Navigation>

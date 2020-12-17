@@ -3,10 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ConvertKitForm from 'convertkit-react'
 import { rhythm, scale } from "../utils/typography"
-
-const MY_FORM_ID = 1624729;
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -22,7 +19,7 @@ class BlogPostTemplate extends React.Component {
         />
         <div>
           <h1>{post.frontmatter.title}</h1>
-          <p
+          <h3
             style={{
               ...scale(-1 / 5),
               display: `block`,
@@ -31,7 +28,7 @@ class BlogPostTemplate extends React.Component {
             }}
           >
             {post.frontmatter.date}
-          </p>
+          </h3>
         </div>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
@@ -39,10 +36,6 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
-
-        <div>
-          <ConvertKitForm formId={MY_FORM_ID} />
-        </div>
 
         <ul
           style={{

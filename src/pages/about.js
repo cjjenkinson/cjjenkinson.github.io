@@ -34,15 +34,24 @@ const About = () => (
     <Wrapper>
       <Section>
         <p>
-          Hi there I’m Cameron. I’m a software engineer based in the UK. I launched my first product in 2015 and served 1000s of professional DJs looking for a better way to discover music. After that I dived deep into technical roles at multiple startups in London including Fiit and Learnerbly.
-        </p>
-        
-        <p>
-          I like to build stuff and create things. I mostly work with Javascript and cloud based architectures.
+          Hi there I’m Cameron, I am a maker based in the UK.
         </p> 
+
+        <p>
+          I like to create things with code, design and everything around it. I love it and I honour it.
+        </p> 
+
+        <p>
+          The writing on here contains my thoughts, experiences and my best answers to topics that relate to challenges in product development.
+        </p>
       </Section>
       <Section>
         <SocialLinks>
+          <li>
+            <a href="https://twitter.com/cameronjj__" target="_blank">
+              🐦 Twitter
+            </a>
+          </li>
           <li>
             <a href="https://dev.to/cjjenkinson" target="_blank">
               💻 Dev.to
