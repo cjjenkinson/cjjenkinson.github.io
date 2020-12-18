@@ -3,21 +3,16 @@ title: 'How to create an RDS Aurora serverless instance with CDK'
 date: "2020-04-12T22:12:03.284Z"
 description: 'Aurora Serverless is a cloud computing database service that removes to need to worry about connection pools'
 ---
-Aurora Serverless is a cloud computing database service that removes to need to worry about connection pools. It is great. We love at Learnerbly and I love using it in all serverless apps.
 
-The main reason is the DynamoDB is such a pain to write a decent ORM is one of the main reasons for considering to ever go back to serverful stacks.
+Before Aurora there were limited options for database services for serverless first infrastructure. This was because managing connection pools was difficult and posed risks within a limited computation window of a Lambda function.
 
-Aurora Serverless is the best of both worlds because it offers a solid and reliable database SQL or Postres that comes a query language we are all familiar with.
-
-Before Aurora there were limited options for database services with serverless infrastructure because managing connection pools was difficult and posed risks within a limited computation window of a Lambda function.
-
-Things have changed now, we can run Lambda executions for way longer and AWS keep coming up with serverless focused services like that meaning we can focus on writing business logic.
+Things have changed now because we can run Lambda executions for longer and AWS is focused on serverless focused services like Aurora. 
 
 > Amazon Aurora Serverless is an on-demand, auto-scaling configuration for Amazon Aurora (MySQL-compatible and PostgreSQL-compatible editions), where the database will automatically start up, shut down, and scale capacity up or down based on your application's needs. 
 
 Let's go ahead and create an [Aurora Serverless](https://aws.amazon.com/rds/aurora/serverless/) instance on AWS with CDK.
 
-Here is the entire stack upfront where I dive into each section in further detail below.
+Here is the entire stack upfront below. I dive into each section in further detail below.
 
 
 ```javascript
