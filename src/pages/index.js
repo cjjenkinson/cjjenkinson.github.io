@@ -23,7 +23,7 @@ const Home = () => (
     <BioWrapper>
       <Section>
         <p>
-         I'm a programmer and maker. I mostly write about serverless and my journey in product development. 
+         I'm a programmer and maker.
         </p>
       </Section>
       <h3>Things Im working on</h3>
