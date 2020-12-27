@@ -30,19 +30,19 @@ const SocialLinks = styled.ul`
 
 const About = () => (
   <Layout>
-    <SEO title="About Cameron" />
+    <SEO title="About Cameron Jenkinson" description="I like to create things and I am mostly working with serverless approaches these days." />
     <Wrapper>
       <Section>
         <p>
-          Hi there I’m Cameron, I am a maker based in the UK.
+          Hi I’m Cameron, I am a programmer based in the UK.
         </p> 
 
         <p>
-          I like to create things with code, design and everything around it. I love it and I honour it.
+          I like to create things and I am mostly working with serverless approaches these days. I work as a serverless engineer at (Learnerbly]('http://learnerbly.com/') and build products in my spare time.
         </p> 
 
         <p>
-          The writing on here contains my thoughts, experiences and my best answers to topics that relate to challenges in product development.
+          The writing on here contains my thoughts, experiences and my best answers to topics that relate to challenges in serverless and product development at startups.
         </p>
       </Section>
       <Section>
