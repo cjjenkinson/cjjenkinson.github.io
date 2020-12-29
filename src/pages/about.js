@@ -34,15 +34,11 @@ const About = () => (
     <Wrapper>
       <Section>
         <p>
-          Hi I’m Cameron, I am a programmer based in the UK.
+          Hi I’m Cameron
         </p> 
 
         <p>
-          I like to create things and I mostly tinker with serverless based applications. Actually, I work as a serverless engineer at [Learnerbly](http://learnerbly.com/) and in my spare time work on these products.
-        </p> 
-
-        <p>
-          The writing on here contains my thoughts, experiences and my best answers to topics that relate to challenges in programming with serverless in mind and product development.
+          The writing on here contains my thoughts, experiences and my best answers to topics that relate to challenges with serverless and product development.
         </p>
       </Section>
       <Section>

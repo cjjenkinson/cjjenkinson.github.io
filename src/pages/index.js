@@ -28,8 +28,8 @@ const Home = () => (
       </Section>
       <h3>Things Im working on</h3>
       <Section>
-        <h4>Yvonne</h4>
-        <p>A conversational programming tool to build landing pages</p>
+        <h4>Zero to Serverless</h4>
+        <p>Teaching devs how to build serverless cloud applications with AWS</p>
       </Section>
       <h3>Things I made</h3>
       <Section>

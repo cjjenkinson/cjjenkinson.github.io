@@ -83,7 +83,7 @@ const Header = () => (
         <Avatar>
           <Image imagePath="me.jpg" />
         </Avatar>
-        <h4>Cameron Jenkinson</h4>
+        <h4>Cameron</h4>
       </Profile>
     </StyledLink>
     <Navigation>
