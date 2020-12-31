@@ -8,7 +8,6 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
-    "@aws-amplify/cli": "^4.40.1",
     "babel-plugin-styled-components": "^1.10.7",
     "convertkit-react": "^1.4.2",
     "gatsby": "^2.9.2",
