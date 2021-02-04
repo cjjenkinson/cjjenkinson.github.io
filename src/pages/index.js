@@ -41,6 +41,14 @@ const Home = () => (
       </Section>
       <h3>Things I am working on</h3>
       <Section>
+        <a href="https://zerotoserverless.com" target="_blank">
+          <SectionHeader>
+            <h3>Zero to Serverless</h3>
+          </SectionHeader>
+          <p>Build a well architected serverless cloud application on AWS in a four-week cohort-based course</p>
+        </a>
+      </Section>
+      <Section>
         <a href="https://trackstack.in" target="_blank">
           <SectionHeader>
             <SectionImage src={TRACKSTACK_LOGO} />

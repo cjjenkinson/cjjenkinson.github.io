@@ -38,24 +38,14 @@ const About = () => (
         </p> 
 
         <p>
-          The writing on here contains my thoughts, experiences and my journey of making bootstrapped products. Find me below.
+          The writing on here contains my thoughts, experiences and my journey of product development and serverless architectures. Find me below.
         </p>
       </Section>
       <Section>
         <SocialLinks>
           <li>
-            <a href="https://wip.co/@cameronjjenkinson" target="_blank">
-              🚧 WIP
-            </a>
-          </li>
-          <li>
             <a href="https://twitter.com/cameronjj__" target="_blank">
               🐦 Twitter
-            </a>
-          </li>
-          <li>
-            <a href="https://dev.to/cjjenkinson" target="_blank">
-              💻 Technical writing
             </a>
           </li>
           <li>
@@ -64,7 +54,7 @@ const About = () => (
             </a>
           </li>
           <li>
-            <a href="mailto:cameronjjenkinson@gmail.com">
+            <a href="mailto:cameronj@hey.com">
               📩 Email me
             </a>
           </li>

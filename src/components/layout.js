@@ -87,7 +87,7 @@ const Header = () => (
     </StyledLink>
     <Navigation>
       <ul>
-        <li><StyledLink to="/blog">Writing</StyledLink></li>
+        <li><StyledLink to="/blog">All Posts</StyledLink></li>
         <li><StyledLink to="/about">About</StyledLink></li>
       </ul>
     </Navigation>
