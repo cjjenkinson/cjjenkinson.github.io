@@ -76,6 +76,13 @@ const StyledLink = styled(Link)`
   box-shadow: none;
 `;
 
+// <Navigation>
+//   <ul>
+//     <li><StyledLink to="/blog">All Posts</StyledLink></li>
+//     <li><StyledLink to="/about">About</StyledLink></li>
+//   </ul>
+// </Navigation>
+
 const Header = () => (
   <HeaderWrapper>
     <StyledLink to="/">
@@ -85,12 +92,6 @@ const Header = () => (
         </Avatar>
       </Profile>
     </StyledLink>
-    <Navigation>
-      <ul>
-        <li><StyledLink to="/blog">All Posts</StyledLink></li>
-        <li><StyledLink to="/about">About</StyledLink></li>
-      </ul>
-    </Navigation>
   </HeaderWrapper>
 )
 
@@ -103,7 +104,6 @@ class Layout extends React.Component {
       <>
         {config.googleSiteVerification && <meta name="google-site-verification" content={config.googleSiteVerification} />}
         <GlobalStyle />
-        <Header />
         <main>
           <div
             style={{
@@ -117,7 +117,7 @@ class Layout extends React.Component {
           </div>
         </main>
         <Footer>
-          {new Date().getFullYear()} Cameron Jenkinson.
+          {new Date().getFullYear()} Cameron Jenkinson. 
         </Footer>
       </>
     )
