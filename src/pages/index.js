@@ -90,7 +90,7 @@ const Home = () => (
           </li>
         </SocialLinks>
       </Section>
-      <h3>What I am working on/h3>
+      <h3>What I am working on</h3>
       <Section>
         <a href="https://trackstack.in" target="_blank">
           <SectionHeader>
