@@ -57,11 +57,11 @@ const Home = () => (
       </Avatar>
       <Section>
         <h3>
-          Hi I’m Cameron 👋
+          Hi I’m Cameron 
         </h3> 
 
         <p>
-          I’m a programmer and maker. I build products that aim to bring harmony and balance to the people that use them.
+          I’m a programmer and maker.
         </p>
       </Section>
       <Section>
@@ -90,7 +90,7 @@ const Home = () => (
           </li>
         </SocialLinks>
       </Section>
-      <h3>What I am building</h3>
+      <h3>What I am working on/h3>
       <Section>
         <a href="https://trackstack.in" target="_blank">
           <SectionHeader>
