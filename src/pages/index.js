@@ -66,15 +66,9 @@ const Home = () => (
       </Section>
       <Section>
         <h4>Find me below 👇</h4>
-        <p>I share most of my journey as audio blogs. Audio suits me, I find it easier to share what’s true.</p>
         <SocialLinks>
           <li>
-            <a href="#" target="_blank">
-              🔈 Listen on Spotify
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/cameronjj__" target="_blank">
+            <a href="https://twitter.com/camjjenkinson" target="_blank">
               🐦 Follow me on Twitter
             </a>
           </li>
