@@ -48,6 +48,17 @@ const SocialLinks = styled.ul`
   }
 `;
 
+//       <h3>What I am working on</h3>
+//       <Section>
+//         <a href="https://trackstack.in" target="_blank">
+//           <SectionHeader>
+//             <SectionImage src={TRACKSTACK_LOGO} />
+//             <h3>Trackstack</h3>
+//           </SectionHeader>
+//           <p>A&R collaboration tools for professional DJs and labels</p>
+//         </a>
+//       </Section>
+
 const Home = () => (
   <Layout>
     <SEO title="Cameron Jenkinson" />
@@ -83,16 +94,6 @@ const Home = () => (
             </a>
           </li>
         </SocialLinks>
-      </Section>
-      <h3>What I am working on</h3>
-      <Section>
-        <a href="https://trackstack.in" target="_blank">
-          <SectionHeader>
-            <SectionImage src={TRACKSTACK_LOGO} />
-            <h3>Trackstack</h3>
-          </SectionHeader>
-          <p>A&R collaboration tools for professional DJs and labels</p>
-        </a>
       </Section>
     </BioWrapper>
   </Layout>
