@@ -48,16 +48,6 @@ const SocialLinks = styled.ul`
   }
 `;
 
-//       <h3>What I am working on</h3>
-//       <Section>
-//         <a href="https://trackstack.in" target="_blank">
-//           <SectionHeader>
-//             <SectionImage src={TRACKSTACK_LOGO} />
-//             <h3>Trackstack</h3>
-//           </SectionHeader>
-//           <p>A&R collaboration tools for professional DJs and labels</p>
-//         </a>
-//       </Section>
 
 const Home = () => (
   <Layout>
@@ -72,7 +62,7 @@ const Home = () => (
         </h3> 
 
         <p>
-          I’m a programmer and maker.
+          I’m a programmer and maker. Serverless first.
         </p>
       </Section>
       <Section>
@@ -85,7 +75,7 @@ const Home = () => (
           </li>
           <li>
             <a href="https://world.hey.com/cameronj/"  target="_blank">
-              📓 Blog and newsletter
+              📓 Personal Blog
             </a>
           </li>
           <li>
