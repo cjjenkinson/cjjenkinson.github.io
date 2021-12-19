@@ -85,6 +85,16 @@ const Home = () => (
           </li>
         </SocialLinks>
       </Section>
+     <h3>Products I am making</h3>
+    <Section>
+      <a href="https://trackstack.app" target="_blank">
+      <SectionHeader>
+        <SectionImage src={TRACKSTACK_LOGO} />
+      <h3>Trackstack</h3>
+     </SectionHeader>
+      <p>A&R collaboration tools for professional DJs and labels</p>
+      </a>
+      </Section>
     </BioWrapper>
   </Layout>
 )
