@@ -69,7 +69,7 @@ const Home = () => (
         <h4>Find me below 👇</h4>
         <SocialLinks>
           <li>
-            <a href="https://twitter.com/camjjenkinson" target="_blank">
+            <a href="https://twitter.com/cameronembling" target="_blank">
               🐦 Follow me on Twitter
             </a>
           </li>
@@ -89,10 +89,9 @@ const Home = () => (
     <Section>
       <a href="https://trackstack.app" target="_blank">
       <SectionHeader>
-        <SectionImage src={TRACKSTACK_LOGO} />
-      <h3>Trackstack</h3>
-     </SectionHeader>
-      <p>A&R collaboration tools for professional DJs and labels</p>
+        <h3>Trackstack</h3>
+      </SectionHeader>
+      <p>The All-In-One inbox for demos</p>
       </a>
       </Section>
     </BioWrapper>
